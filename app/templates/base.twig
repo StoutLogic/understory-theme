@@ -1,0 +1,46 @@
+{% block html_head_container %}
+  {% include 'html-head.twig' %}
+    {% block html_head %}
+    {% endblock %}
+    </head>
+{% endblock %}
+
+  <body class="{{body_class}}" data-template="base.twig">
+
+    {# site__wrapper and site__container are for a sticky footer #}
+    <div class="site__wrapper">
+      <div class="site__container">
+
+        <header class="site__header" >     
+          {% spaceless %}      
+          {% block header %}
+            {% include 'header.twig' %}
+          {% endblock %}
+          {% endspaceless %}
+        </header>
+
+        <section role="main" class="site__main">
+          {% spaceless %}
+          {% block content_wrapper %}
+            <div class="main__wrapper">
+              {% block content %}{% endblock %}
+            </div>
+          {% endblock %}
+          {% endspaceless %}
+        </section>
+        
+      </div>
+    </div>
+    <footer class="site__footer">
+      <div class="footer__wrapper">
+          {% spaceless %}
+          {% block footer %}
+            {% include 'footer.twig' %}
+          {% endblock %}
+          {% endspaceless %}
+      </div>
+    </footer>
+        
+    {{ wp_footer }}
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "name": "stoutlogic/understory-theme",
+    "description": "A WordPress theme using Understory",
+    "type": "wordpress-theme",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Steve Pfisterer",
+            "email": "steve@stoutlogic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "~1.0",
+        "stoutlogic/understory": "~0.0"
+    }
+}

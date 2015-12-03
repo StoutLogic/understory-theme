@@ -1,0 +1,9 @@
+{
+  // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+  "extends": "eslint-config-airbnb", 
+  
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0
+  }
+}
