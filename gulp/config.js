@@ -1,7 +1,9 @@
 export const dest = './assets/dist';
 export const src = './assets';
 const app = './app';
-const host = 'dpatents.dev';
+
+// CONFIGURE: The domain the wordpress site is set to locally
+const host = 'domain.dev';
 
 export const browserSync = {
   proxy: host,

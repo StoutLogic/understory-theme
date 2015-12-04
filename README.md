@@ -9,6 +9,8 @@ npm install
 It's is recommened that Understory and Timber be installed as mu-plugins (must use plugins.) Checkout the [Understory Site](https://github.com/StoutLogic/understory-site) project as a boilerplate for an entire WordPress site, built using Understory and Timber.
 
 ## Work
+Configure browsersync by setting the domain name the WordPress site is configured with in gulp/config.js
+
 ```
 gulp
 ```
