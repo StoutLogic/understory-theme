@@ -1,6 +1,6 @@
 <?php
 
-namespace StoutLogic\DPatents\Helpers;
+namespace StoutLogic\UnderstoryTheme\Helpers;
 
 class Image
 {

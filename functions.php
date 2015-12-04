@@ -1,6 +1,7 @@
 <?php
 
-use StoutLogic\UnderstoryTheme;
+namespace StoutLogic\UnderstoryTheme;
+
 use StoutLogic\UnderstoryTheme\Config;
 
 // Bootstrap

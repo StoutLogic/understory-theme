@@ -1,6 +1,6 @@
 <?php
 
-namespace StoutLogic\DPatents\Config;
+namespace StoutLogic\UnderstoryTheme\Config;
 
 class Editor extends \Understory\Config\Editor
 {
