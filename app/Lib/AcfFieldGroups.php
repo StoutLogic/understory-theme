@@ -51,7 +51,7 @@ class AcfFieldGroups
                 $rule = array (
                     'param' => 'page_template',
                     'operator' => '==',
-                    'value' => 'app/views'.$className::getFileName().'.php'
+                    'value' => 'app/Views'.$className::getFileName().'.php'
                 );
             } else if (is_subclass_of($className, '\Understory\CustomPostType')) {
                 $rule = array (
